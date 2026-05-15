@@ -121,5 +121,3 @@ This project was built with a **"Performance-First, Aesthetics-Always"** mindset
 ## 🏛️ About JG University
 JG University is a Tech-Driven institution sponsored by the **ASIA Charitable Trust** (established 1965). The portal reflects the university's philosophy of "Excellence by Choice," bridging the gap between academia and future-ready industry demand.
 
----
-*Created with Excellence by Antigravity AI*
