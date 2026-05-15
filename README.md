@@ -30,7 +30,7 @@ A world-class, high-performance university portal built with **Next.js 15 (App R
 
 ## 🎥 Video Walkthrough
 <div align="center">
-  <video src="./public/assets/Screen Recording 2026-05-15 164200.mp4" width="100%" controls>
+  <video src="public/assets/Screen%20Recording%202026-05-15%20164200.mp4" width="100%" controls>
     Your browser does not support the video tag.
   </video>
 </div>
