@@ -31,8 +31,9 @@ A world-class, high-performance university portal built with **Next.js 15 (App R
 ## 🎥 Video Walkthrough
 <div align="center">
   <video src="https://github.com/madhan175/jg-university-/raw/main/public/assets/Screen%20Recording%202026-05-15%20164200.mp4" width="100%" controls>
-    Your browser does not support the video tag.
   </video>
+  <br />
+  <a href="https://github.com/madhan175/jg-university-/raw/main/public/assets/Screen%20Recording%202026-05-15%20164200.mp4"><b>Click here to view or download the Walkthrough Video</b></a>
 </div>
 
 ## 🔗 Live Demo
