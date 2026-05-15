@@ -1,124 +1,173 @@
-# 🏛️ JG University Portal - Institutional Excellence Edition
+# 🏛️ JG University Portal — Institutional Excellence Platform
 
-A world-class, high-performance university portal built with **Next.js 15 (App Router)** and **Tailwind CSS 4**. This platform features a premium "Web3-inspired" aesthetic with interactive 3D graphics, real-time search intelligence, and professional institutional modules.
+A next-generation institutional web platform engineered for **JG University**, built using **Next.js 15 App Router**, **Tailwind CSS 4**, and immersive WebGL-driven UI systems.
 
-## 🚀 Key Features
+The platform combines enterprise-grade frontend architecture with cinematic Web3-inspired interactions to deliver a premium digital experience tailored for modern educational institutions.
 
-### 🌌 Immersive Visual Experience
-- **Interactive 3D Hero**: A Three.js powered neural network background that responds to mouse movements for a futuristic entrance.
-- **Magnetic Micro-Interactions**: A custom magnetic cursor that snaps to interactive elements, providing a premium software feel.
-- **Fluid Animations**: Complex scroll-triggered animations powered by **Framer Motion** and **Lenis Smooth Scroll**.
+---
 
-## 📸 Website Gallery
+## 🌐 Live Experience
+
+🔗 https://jg-university-seven.vercel.app/
+
+---
+
+# ✨ Core Experience Highlights
+
+## 🌌 Immersive Visual System
+
+- Interactive **Three.js neural-network hero canvas**
+- GPU-accelerated motion graphics
+- Dynamic lighting and animated gradients
+- Smooth inertia scrolling powered by **Lenis**
+- Advanced scroll choreography using **Framer Motion**
+- Premium magnetic cursor interactions
+- Layered depth animations inspired by modern Web3 products
+
+---
+
+## 🎥 Product Walkthrough
+
+<div align="center">
+
+https://github.com/madhan175/jg-university-/raw/main/public/assets/Screen%20Recording%202026-05-15%20164200.mp4
+
+</div>
+
+---
+
+# 📸 Interface Gallery
 
 <div align="center">
   <img src="./public/assets/webstie/image.png" width="45%" />
   <img src="./public/assets/webstie/image copy.png" width="45%" />
-  <br />
+  <br /><br />
   <img src="./public/assets/webstie/image copy 2.png" width="45%" />
   <img src="./public/assets/webstie/image copy 3.png" width="45%" />
-  <br />
+  <br /><br />
   <img src="./public/assets/webstie/image copy 4.png" width="45%" />
   <img src="./public/assets/webstie/image copy 5.png" width="45%" />
-  <br />
+  <br /><br />
   <img src="./public/assets/webstie/image copy 6.png" width="45%" />
   <img src="./public/assets/webstie/image copy 7.png" width="45%" />
-  <br />
+  <br /><br />
   <img src="./public/assets/webstie/image copy 8.png" width="45%" />
   <img src="./public/assets/webstie/image copy 9.png" width="45%" />
 </div>
 
-## 🎥 Video Walkthrough
-<div align="center">
-  <video src="https://github.com/madhan175/jg-university-/raw/main/public/assets/Screen%20Recording%202026-05-15%20164200.mp4" width="100%" controls>
-  </video>
-  <br />
-  <a href="https://github.com/madhan175/jg-university-/raw/main/public/assets/Screen%20Recording%202026-05-15%20164200.mp4"><b>Click here to view or download the Walkthrough Video</b></a>
-</div>
+---
 
-## 🔗 Live Demo
-[View Live Website](https://jg-university-seven.vercel.app/)
+# 🚀 Platform Capabilities
 
-### 🔍 Intelligent Functionality
-- **Real-time Search Intelligence**: A global search system integrated into the Navbar that filters through all academic programmes instantly.
-- **Dynamic Mega Menu**: A high-density navigation system with multi-column layouts for schools and programmes.
-- **Advanced Forms**: Career recruitment portal with file upload capabilities and secure contact hubs with Google Maps integration.
+## 🔍 Intelligent Search Infrastructure
 
-### 🏢 Institutional Modules
-- **Academic Catalog**: Detailed accordion-based views of Management, Engineering, Law, and Applied Sciences.
-- **Global Collaborations**: Highlighting partnerships with international institutions like **Carleton University (Canada)**.
-- **Industry Linkage**: Dedicated mentorship carousels featuring industry leaders and corporate partner marquees.
-- **Campus Life**: Comprehensive view of facilities, ERP-integrated library, and upcoming visionary campus.
+- Global programme discovery system
+- Real-time filtering architecture
+- Dynamic mega-navigation menus
+- Scalable centralized academic catalogue
 
-## 🛠️ Tech Stack
+---
 
-- **Framework**: Next.js 15 (App Router)
-- **Styling**: Tailwind CSS 4
-- **Animations**: Framer Motion
-- **3D Engine**: Three.js (@react-three/fiber, @react-three/drei)
-- **Icons**: Lucide React
-- **Carousels**: Swiper.js
-- **Scrolling**: Lenis (Studio Freight)
+## 🏢 Institutional Systems
 
-## 📁 Professional Project Architecture
+### Academic Ecosystem
+- Management Programmes
+- Engineering & Computing
+- Law & Applied Sciences
+- Emerging Technology Disciplines
+- Aviation & Hospitality
 
-The repository is structured following **Enterprise Next.js standards**, utilizing Atomic Design principles to ensure high maintainability and horizontal scalability.
+### Global Collaboration Infrastructure
+- International partnership showcases
+- Institutional collaboration modules
+- Research & innovation presentation systems
+
+### Student Experience Layer
+- Campus showcase engine
+- Industry mentorship systems
+- Career and placement modules
+- ERP-integrated informational architecture
+
+---
+
+# ⚡ Technical Architecture
+
+| Layer | Technology |
+|---|---|
+| Framework | Next.js 15 (App Router) |
+| UI System | React 19 |
+| Styling | Tailwind CSS 4 |
+| Animations | Framer Motion |
+| 3D Engine | Three.js |
+| Rendering | React Three Fiber |
+| Icons | Lucide React |
+| Sliders | Swiper.js |
+| Smooth Scroll | Lenis |
+| Language | TypeScript |
+
+---
+
+# 🧠 Engineering Philosophy
+
+This project follows a **Performance-First Frontend Architecture** strategy while maintaining premium visual fidelity.
+
+## Key Architectural Decisions
+
+### 1. Modular Scalability
+The entire application follows a highly composable component structure enabling:
+- isolated feature development
+- reusable UI systems
+- scalable institutional expansion
+
+---
+
+### 2. Centralized Data Management
+All programme data is abstracted into centralized data layers, enabling:
+- rapid institutional updates
+- dynamic rendering
+- reduced maintenance overhead
+
+---
+
+### 3. Motion-Driven UX
+Animations are not decorative — they are integrated into the navigation and storytelling experience:
+- scroll-driven transitions
+- velocity-aware motion systems
+- interaction-based depth feedback
+- cinematic section choreography
+
+---
+
+### 4. Enterprise Component Architecture
+The repository structure is designed using scalable frontend engineering principles inspired by:
+- Atomic Design
+- Feature-Driven Architecture
+- Enterprise Next.js conventions
+
+---
+
+# 📁 Project Structure
 
 ```plaintext
 jg-university-portal/
+│
 ├── public/
-│   └── assets/           # Optimized institutional assets (Campus, Faculty, Home)
+│   └── assets/
+│
 ├── src/
-│   ├── app/              # Next.js App Router (Routing, Layouts, Global Styles)
-│   │   ├── favicon.ico
-│   │   ├── globals.css   # Main CSS with Tailwind 4 custom tokens
-│   │   ├── layout.tsx    # Root layout with font & provider injections
-│   │   └── page.tsx      # Main Entry Point (Assembling sections)
-│   ├── components/       # Atomic component library
-│   │   ├── layout/       # Global persistent components (Navbar, Footer, Sidebars)
-│   │   ├── sections/     # High-level page organisms (Hero, Campus, Catalog)
-│   │   ├── ui/           # Reusable dumb components & 3D engines (Modals, Canvas)
-│   │   └── providers/    # Smooth scrolling and context wrappers
-│   ├── data/             # Centralized static database (Programme catalog)
-│   ├── lib/              # Utility functions and shared logic
-│   └── hooks/            # Custom React hooks (Scrolling, interactions)
-├── .gitignore            # Production-grade exclusion rules
-├── next.config.ts        # Optimized Next.js configuration
-├── package.json          # Dependency management & build scripts
-├── README.md             # Project documentation
-└── tsconfig.json         # Strict TypeScript configuration
-```
-
-## 🧠 Development Philosophy & Approach
-
-This project was built with a **"Performance-First, Aesthetics-Always"** mindset, specifically designed for a modern educational institution:
-
-1.  **Immersive Experience**: Used **Three.js** and **Framer Motion** to create a "living" digital environment that appeals to tech-savvy students.
-2.  **Scalable Data**: Instead of hardcoding content, I created a **Centralized Data Layer** in `src/data/`, allowing the university to update their 20+ programmes in one single location.
-3.  **Modular Components**: Every section is an isolated module. This means the hiring company can easily extract the "Campus Gallery" or "Programme Search" and reuse them on different pages.
-4.  **UX Polish**: Implemented **Lenis Smooth Scroll** and **Custom Magnetic Cursors** to elevate the interface from a "website" to a "premium web application."
-
-## 🏁 Getting Started
-
-### Prerequisites
-- Node.js 18.17 or later
-- npm / yarn / pnpm
-
-### Installation
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/madhan175/jg-university-.git
-   ```
-2. Install dependencies:
-   ```bash
-   npm install
-   ```
-3. Run the development server:
-   ```bash
-   npm run dev
-   ```
-4. Open [http://localhost:3000](http://localhost:3000) to view the portal.
-
-## 🏛️ About JG University
-JG University is a Tech-Driven institution sponsored by the **ASIA Charitable Trust** (established 1965). The portal reflects the university's philosophy of "Excellence by Choice," bridging the gap between academia and future-ready industry demand.
-
+│   ├── app/
+│   ├── components/
+│   │   ├── layout/
+│   │   ├── sections/
+│   │   ├── ui/
+│   │   └── providers/
+│   │
+│   ├── data/
+│   ├── hooks/
+│   ├── lib/
+│   └── styles/
+│
+├── package.json
+├── next.config.ts
+├── tsconfig.json
+└── README.md
