@@ -9,13 +9,24 @@ A world-class, high-performance university portal built with **Next.js 15 (App R
 - **Magnetic Micro-Interactions**: A custom magnetic cursor that snaps to interactive elements, providing a premium software feel.
 - **Fluid Animations**: Complex scroll-triggered animations powered by **Framer Motion** and **Lenis Smooth Scroll**.
 
-## 📸 Visual Showcase
+## 📸 Website Gallery
 
-![JG University Campus](/assets/Campus/image.png)
-*Modern infrastructure designed for tech-driven education.*
-
-![Academic Excellence](/assets/home/image.png)
-*Collaborative learning environments fostering innovation.*
+<div align="center">
+  <img src="./public/assets/webstie/image.png" width="45%" />
+  <img src="./public/assets/webstie/image copy.png" width="45%" />
+  <br />
+  <img src="./public/assets/webstie/image copy 2.png" width="45%" />
+  <img src="./public/assets/webstie/image copy 3.png" width="45%" />
+  <br />
+  <img src="./public/assets/webstie/image copy 4.png" width="45%" />
+  <img src="./public/assets/webstie/image copy 5.png" width="45%" />
+  <br />
+  <img src="./public/assets/webstie/image copy 6.png" width="45%" />
+  <img src="./public/assets/webstie/image copy 7.png" width="45%" />
+  <br />
+  <img src="./public/assets/webstie/image copy 8.png" width="45%" />
+  <img src="./public/assets/webstie/image copy 9.png" width="45%" />
+</div>
 
 ## 🎥 Video Walkthrough
 <div align="center">
