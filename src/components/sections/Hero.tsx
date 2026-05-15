@@ -46,7 +46,7 @@ export default function Hero() {
           initial={{ opacity: 0, y: 30 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, delay: 0.2 }}
-          className="text-6xl md:text-8xl lg:text-9xl font-black tracking-tighter leading-[0.9] mb-8"
+          className="text-5xl md:text-7xl lg:text-8xl font-black tracking-tighter leading-[0.9] mb-8"
         >
           <span className="text-white">JG</span>{" "}
           <span className="text-gradient-neon">UNIVERSITY</span>
@@ -56,7 +56,7 @@ export default function Hero() {
           initial={{ opacity: 0, y: 30 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, delay: 0.4 }}
-          className="text-lg md:text-xl text-gray-400 max-w-2xl mx-auto mb-12 font-medium leading-relaxed"
+          className="text-base md:text-lg text-gray-400 max-w-2xl mx-auto mb-12 font-medium leading-relaxed"
         >
           Empowering future innovators through industry-integrated global education 
           and cutting-edge technological excellence.

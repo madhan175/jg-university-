@@ -36,7 +36,7 @@ export default function Programmes() {
         <motion.h2
           initial={{ opacity: 0, x: -20 }}
           whileInView={{ opacity: 1, x: 0 }}
-          className="text-5xl font-black text-white mb-16 tracking-tighter"
+          className="text-4xl font-black text-white mb-16 tracking-tighter"
         >
           Programmes
         </motion.h2>

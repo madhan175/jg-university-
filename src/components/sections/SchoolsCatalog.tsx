@@ -130,11 +130,11 @@ export default function SchoolsCatalog() {
           <motion.h2
             initial={{ opacity: 0, x: -20 }}
             whileInView={{ opacity: 1, x: 0 }}
-            className="text-5xl md:text-7xl font-black text-white tracking-tighter"
+            className="text-4xl md:text-6xl font-black text-white tracking-tighter"
           >
             Academic <span className="text-gradient-neon">Catalog</span>
           </motion.h2>
-          <p className="text-gray-400 mt-6 max-w-2xl text-lg">
+          <p className="text-gray-400 mt-6 max-w-2xl text-base">
             Explore our comprehensive range of future-ready programmes across multiple disciplines.
           </p>
         </div>
