@@ -11,12 +11,9 @@ const testimonials = [
   {
     name: "Chintan Vyas",
     role: "B.Com - Manager, Nexa",
-    text: "It gives me great pleasure to say with pride that I have completed my graduation from JG. The relationship between faculty members and students is very cordial, which gave me an opportunity to flourish in my studies. The years spent here were splendid and assisted both my professional and personal growth.",
-    name: "Arjun Mehta",
-    role: "B.Tech CSE, Class of 2023",
-    company: "Google",
+    company: "Nexa",
     image: "/assets/Faculty/CA CPA Harshil Trivedi .png",
-    text: "The tech-driven pedagogy at JG University gave me the edge I needed to succeed in the global tech landscape. The mentorship was unparalleled."
+    text: "It gives me great pleasure to say with pride that I have completed my graduation from JG. The relationship between faculty members and students is very cordial, which gave me an opportunity to flourish in my studies. The years spent here were splendid and assisted both my professional and personal growth."
   },
   {
     name: "Priya Sharma",
