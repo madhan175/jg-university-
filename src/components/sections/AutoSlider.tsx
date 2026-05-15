@@ -12,7 +12,6 @@ import { ArrowUpRight, Sparkles } from "lucide-react";
 
 const slides = [
   {
-    title: "Workshop on National Education Policy",
     title: "Global Learning",
     description: "Empowering educators and students with the latest insights into India's educational transformation.",
     image: "/assets/Campus/image.png",
@@ -42,11 +41,10 @@ const slides = [
     image: "/assets/Campus/image copy 2.png",
     color: "from-cyan-500/20",
   },
-  },
   {
     title: "Campus Life",
     description: "A vibrant, global community fostering holistic growth and memories.",
-    image: "https://images.unsplash.com/photo-1523050335392-93851179ae22?q=80&w=2070&auto=format&fit=crop",
+    image: "/assets/Campus/image copy 4.png",
     color: "from-orange-500/20",
   },
 ];

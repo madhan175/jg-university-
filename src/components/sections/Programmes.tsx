@@ -42,9 +42,9 @@ export default function Programmes() {
         </motion.h2>
 
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
-          {categories.map((cat, i) => (
+          {programmes.map((prog, i) => (
             <motion.div
-              key={cat.name}
+              key={prog.name}
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
               transition={{ delay: i * 0.1 }}
@@ -52,13 +52,13 @@ export default function Programmes() {
             >
               <div className="aspect-[4/3] overflow-hidden">
                 <img
-                  src={cat.image}
-                  alt={cat.name}
+                  src={prog.image}
+                  alt={prog.name}
                   className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
                 />
               </div>
-              <div className={`${cat.color} py-4 text-center`}>
-                <h3 className="text-white font-bold text-lg">{cat.name}</h3>
+              <div className={`${prog.color} py-4 text-center`}>
+                <h3 className="text-white font-bold text-lg">{prog.name}</h3>
               </div>
               
               {/* Futuristic Hover Overlay */}
