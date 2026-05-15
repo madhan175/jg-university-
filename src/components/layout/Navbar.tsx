@@ -278,36 +278,42 @@ export default function Navbar() {
 
         {/* Mobile Toggle */}
         <button
-          className="xl:hidden p-2 text-jg-red"
+          className="xl:hidden p-3 text-jg-red rounded-full hover:bg-gray-100 transition-colors z-[110]"
           onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
           aria-label="Toggle Menu"
         >
-          {mobileMenuOpen ? <X size={26} /> : <Menu size={26} />}
+          {mobileMenuOpen ? <X size={30} className="stroke-[3]" /> : <Menu size={30} className="stroke-[3]" />}
         </button>
       </div>
 
-      {/* Mobile Menu - Simple, no animation */}
+      {/* Mobile Menu - Full screen overlay for app-like feel */}
       {mobileMenuOpen && (
-        <div className="xl:hidden bg-white border-t border-gray-100 px-6 py-4 space-y-4">
-          {navLinks.map((link) => (
-            <div key={link.name}>
+        <div className="fixed inset-0 top-[80px] bg-white z-[105] flex flex-col p-8 overflow-y-auto">
+          <div className="flex flex-col gap-6 mb-12">
+            {navLinks.map((link) => (
               <Link
+                key={link.name}
                 href={link.href}
-                className="text-base font-bold text-gray-700 flex justify-between items-center py-2 border-b border-gray-50"
+                className="text-2xl font-black text-gray-800 flex justify-between items-center py-4 border-b border-gray-100"
                 onClick={() => setMobileMenuOpen(false)}
               >
                 {link.name}
-                {link.hasMega && <ChevronDown className="w-4 h-4 text-gray-400" />}
+                <ArrowRight className="w-6 h-6 text-jg-red" />
               </Link>
-            </div>
-          ))}
-          <button
-            className="w-full py-4 rounded-xl bg-jg-red text-white font-bold text-sm uppercase tracking-widest mt-2"
-            onClick={() => setMobileMenuOpen(false)}
-          >
-            Apply Now
-          </button>
-          <p className="text-center text-xs text-gray-400 pt-2">SPONSORED BY ASIA CHARITABLE TRUST</p>
+            ))}
+          </div>
+          
+          <div className="mt-auto space-y-4">
+            <button 
+              className="w-full py-5 rounded-2xl bg-jg-red text-white font-black text-lg uppercase tracking-widest shadow-xl shadow-jg-red/20"
+              onClick={() => setMobileMenuOpen(false)}
+            >
+              Apply Now
+            </button>
+            <p className="text-center text-xs font-bold text-gray-400">
+              SPONSORED BY ASIA CHARITABLE TRUST
+            </p>
+          </div>
         </div>
       )}
     </nav>

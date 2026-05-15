@@ -23,7 +23,6 @@ import CustomCursor from "@/components/ui/CustomCursor";
 export default function Home() {
   return (
     <SmoothScroll>
-      <CustomCursor />
       <AdmissionsModal />
       <SideBars />
       <div className="relative min-h-screen bg-black overflow-hidden">
