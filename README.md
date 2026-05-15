@@ -44,21 +44,43 @@ A world-class, high-performance university portal built with **Next.js 15 (App R
 - **Carousels**: Swiper.js
 - **Scrolling**: Lenis (Studio Freight)
 
-## 📁 Senior Developer Architecture
+## 📁 Professional Project Architecture
 
-The project follows a scalable, atomic design structure:
+The repository is structured following **Enterprise Next.js standards**, utilizing Atomic Design principles to ensure high maintainability and horizontal scalability.
+
 ```plaintext
-src/
-├── app/              # Routing & Metadata
-├── components/
-│   ├── layout/       # Navbar, Footer, Sidebars
-│   ├── sections/     # Large Page Blocks (Hero, Campus, etc.)
-│   ├── ui/           # Reusable Components (Modals, Cursor, 3D Canvas)
-│   └── providers/    # Global Wrappers (Smooth Scroll)
-├── data/             # Centralized constants & programme database
+jg-university-portal/
 ├── public/
-│   └── assets/       # Organized institutional media assets
+│   └── assets/           # Optimized institutional assets (Campus, Faculty, Home)
+├── src/
+│   ├── app/              # Next.js App Router (Routing, Layouts, Global Styles)
+│   │   ├── favicon.ico
+│   │   ├── globals.css   # Main CSS with Tailwind 4 custom tokens
+│   │   ├── layout.tsx    # Root layout with font & provider injections
+│   │   └── page.tsx      # Main Entry Point (Assembling sections)
+│   ├── components/       # Atomic component library
+│   │   ├── layout/       # Global persistent components (Navbar, Footer, Sidebars)
+│   │   ├── sections/     # High-level page organisms (Hero, Campus, Catalog)
+│   │   ├── ui/           # Reusable dumb components & 3D engines (Modals, Canvas)
+│   │   └── providers/    # Smooth scrolling and context wrappers
+│   ├── data/             # Centralized static database (Programme catalog)
+│   ├── lib/              # Utility functions and shared logic
+│   └── hooks/            # Custom React hooks (Scrolling, interactions)
+├── .gitignore            # Production-grade exclusion rules
+├── next.config.ts        # Optimized Next.js configuration
+├── package.json          # Dependency management & build scripts
+├── README.md             # Project documentation
+└── tsconfig.json         # Strict TypeScript configuration
 ```
+
+## 🧠 Development Philosophy & Approach
+
+This project was built with a **"Performance-First, Aesthetics-Always"** mindset, specifically designed for a modern educational institution:
+
+1.  **Immersive Experience**: Used **Three.js** and **Framer Motion** to create a "living" digital environment that appeals to tech-savvy students.
+2.  **Scalable Data**: Instead of hardcoding content, I created a **Centralized Data Layer** in `src/data/`, allowing the university to update their 20+ programmes in one single location.
+3.  **Modular Components**: Every section is an isolated module. This means the hiring company can easily extract the "Campus Gallery" or "Programme Search" and reuse them on different pages.
+4.  **UX Polish**: Implemented **Lenis Smooth Scroll** and **Custom Magnetic Cursors** to elevate the interface from a "website" to a "premium web application."
 
 ## 🏁 Getting Started
 
