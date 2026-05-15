@@ -278,40 +278,38 @@ export default function Navbar() {
 
         {/* Mobile Toggle */}
         <button
-          className="xl:hidden text-jg-red"
+          className="xl:hidden p-2 text-jg-red"
           onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
+          aria-label="Toggle Menu"
         >
-          {mobileMenuOpen ? <X size={28} /> : <Menu size={28} />}
+          {mobileMenuOpen ? <X size={26} /> : <Menu size={26} />}
         </button>
       </div>
 
-      {/* Mobile Menu (Updated) */}
-      <AnimatePresence>
-        {mobileMenuOpen && (
-          <motion.div
-            initial={{ opacity: 0, height: 0 }}
-            animate={{ opacity: 1, height: "auto" }}
-            exit={{ opacity: 0, height: 0 }}
-            className="xl:hidden bg-white border-t border-gray-100 p-8 space-y-6"
+      {/* Mobile Menu - Simple, no animation */}
+      {mobileMenuOpen && (
+        <div className="xl:hidden bg-white border-t border-gray-100 px-6 py-4 space-y-4">
+          {navLinks.map((link) => (
+            <div key={link.name}>
+              <Link
+                href={link.href}
+                className="text-base font-bold text-gray-700 flex justify-between items-center py-2 border-b border-gray-50"
+                onClick={() => setMobileMenuOpen(false)}
+              >
+                {link.name}
+                {link.hasMega && <ChevronDown className="w-4 h-4 text-gray-400" />}
+              </Link>
+            </div>
+          ))}
+          <button
+            className="w-full py-4 rounded-xl bg-jg-red text-white font-bold text-sm uppercase tracking-widest mt-2"
+            onClick={() => setMobileMenuOpen(false)}
           >
-            {navLinks.map((link) => (
-              <div key={link.name}>
-                <Link
-                  href={link.href}
-                  className="text-lg font-bold text-gray-700 flex justify-between items-center"
-                  onClick={() => !link.hasMega && setMobileMenuOpen(false)}
-                >
-                  {link.name}
-                  {link.hasMega && <ChevronDown className="w-5 h-5 text-gray-400" />}
-                </Link>
-              </div>
-            ))}
-            <button className="w-full py-4 rounded-xl bg-jg-red text-white font-bold text-sm uppercase tracking-widest">
-              Apply Now
-            </button>
-          </motion.div>
-        )}
-      </AnimatePresence>
+            Apply Now
+          </button>
+          <p className="text-center text-xs text-gray-400 pt-2">SPONSORED BY ASIA CHARITABLE TRUST</p>
+        </div>
+      )}
     </nav>
   );
 }
