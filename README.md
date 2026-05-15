@@ -18,7 +18,11 @@ A world-class, high-performance university portal built with **Next.js 15 (App R
 *Collaborative learning environments fostering innovation.*
 
 ## 🎥 Video Walkthrough
-[Watch the Portal in Action](https://github.com/madhan175/jg-university-) *(Upload your screen recording here)*
+<div align="center">
+  <video src="./public/assets/Screen Recording 2026-05-15 164200.mp4" width="100%" controls>
+    Your browser does not support the video tag.
+  </video>
+</div>
 
 ## 🔗 Live Demo
 [View Live Website](https://jg-university.vercel.app) *(Deploy on Vercel to activate link)*
