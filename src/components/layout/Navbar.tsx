@@ -72,13 +72,13 @@ export default function Navbar() {
       <div className="max-w-[1400px] mx-auto flex items-center justify-between px-8">
         {/* Logo */}
           <Link href="/" className="relative flex items-center">
-            <div className="bg-white p-2 rounded-xl shadow-lg border border-gray-100">
-              <img src="/assets/logo.png" alt="JG University Logo" className="h-16 w-auto" />
+            <div className="bg-white p-1.5 rounded-lg shadow-md border border-gray-100">
+              <img src="/assets/logo.png" alt="JG University Logo" className="h-12 w-auto" />
             </div>
           </Link>
 
         {/* Desktop Links */}
-        <div className="hidden xl:flex items-center gap-8">
+        <div className="hidden xl:flex items-center gap-6">
           {navLinks.map((link) => (
             <div
               key={link.name}
@@ -90,16 +90,16 @@ export default function Navbar() {
                 link.hasMega && setMegaMenuOpen(false);
                 link.hasDropdown && setActiveDropdown(null);
               }}
-              className="relative py-4"
+              className="relative py-3"
             >
               <Link
                 href={link.href}
-                className={`text-[13px] font-bold transition-colors flex items-center gap-1 ${
+                className={`text-[12px] font-bold transition-colors flex items-center gap-1 ${
                   link.name === "Career" || link.name === "Contact Us" ? "text-jg-red" : "text-gray-600 hover:text-jg-red"
                 }`}
               >
                 {link.name}
-                {(link.hasMega || link.hasDropdown) && <ChevronDown className={`w-4 h-4 transition-transform ${megaMenuOpen || activeDropdown === link.name ? "rotate-180" : ""}`} />}
+                {(link.hasMega || link.hasDropdown) && <ChevronDown className={`w-3.5 h-3.5 transition-transform ${megaMenuOpen || activeDropdown === link.name ? "rotate-180" : ""}`} />}
               </Link>
 
               {/* Simple Dropdown */}
@@ -214,13 +214,13 @@ export default function Navbar() {
         </div>
 
         {/* CTA & Search */}
-        <div className="hidden xl:flex items-center gap-4">
-          <button className="px-8 py-3 rounded-lg bg-jg-gold text-black font-bold text-sm hover:scale-105 transition-all shadow-lg shadow-jg-gold/20">
+        <div className="hidden xl:flex items-center gap-3">
+          <button className="px-6 py-2.5 rounded-lg bg-jg-gold text-black font-bold text-[12px] hover:scale-105 transition-all shadow-md shadow-jg-gold/20">
             Admission
           </button>
           <div className="relative group">
-            <div className="flex items-center bg-gray-100 rounded-lg px-4 py-2 border border-transparent focus-within:border-jg-red/20 transition-all">
-              <Search className="w-4 h-4 text-gray-400 mr-2" />
+            <div className="flex items-center bg-gray-100 rounded-lg px-3 py-2 border border-transparent focus-within:border-jg-red/20 transition-all">
+              <Search className="w-3.5 h-3.5 text-gray-400 mr-2" />
               <input 
                 type="text" 
                 placeholder="Search programmes..." 
