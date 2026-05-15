@@ -257,9 +257,10 @@ export default function Navbar() {
                     <Link 
                       key={i} 
                       href="#programmes"
-                      onClick={() => {
+                      onClick={(e) => {
                         setSearchQuery("");
                         setSearchResults([]);
+                        // Standard section scroll handling
                       }}
                       className="block p-4 hover:bg-gray-50 transition-colors border-b border-gray-50 last:border-0 group"
                     >
