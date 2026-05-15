@@ -30,12 +30,13 @@ A world-class, high-performance university portal built with **Next.js 15 (App R
 
 ## 🎥 Video Walkthrough
 <div align="center">
-  <video src="public/assets/Screen%20Recording%202026-05-15%20164200.mp4" width="100%" controls>
+  <video src="https://github.com/madhan175/jg-university-/raw/main/public/assets/Screen%20Recording%202026-05-15%20164200.mp4" width="100%" controls>
     Your browser does not support the video tag.
   </video>
+</div>
 
 ## 🔗 Live Demo
-[View Live Website](https://jg-university.vercel.app) *(Deploy on Vercel to activate link)*
+[View Live Website](https://jg-university-seven.vercel.app/)
 
 ### 🔍 Intelligent Functionality
 - **Real-time Search Intelligence**: A global search system integrated into the Navbar that filters through all academic programmes instantly.
